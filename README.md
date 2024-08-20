@@ -80,6 +80,75 @@ Replace `<path_to_data_file>` with the path to your text file containing people'
 
 6. To exit the application, enter `0` at the main menu.
 
+### Example Output
+
+Here's an example of what the output might look like when using different search strategies:
+
+1. Using the ALL strategy:
+   ```
+   === Menu ===
+   1. Find a person
+   2. Print all people
+   0. Exit
+   1
+
+   Select a matching strategy: ALL, ANY, NONE
+   ALL
+   Enter a name or email to search all suitable people:
+   Erick Harrington
+   Erick Harrington harrington@gmail.com
+   ```
+
+2. Using the ANY strategy:
+   ```
+   === Menu ===
+   1. Find a person
+   2. Print all people
+   0. Exit
+   1
+
+   Select a matching strategy: ALL, ANY, NONE
+   ANY
+   Enter a name or email to search all suitable people:
+   Erick
+   Erick Harrington harrington@gmail.com
+   Erick Burgess
+   ```
+
+3. Using the NONE strategy:
+   ```
+   === Menu ===
+   1. Find a person
+   2. Print all people
+   0. Exit
+   1
+
+   Select a matching strategy: ALL, ANY, NONE
+   NONE
+   Enter a name or email to search all suitable people:
+   Erick Dwight
+   Rene Webb webb@gmail.com
+   Katie Jacobs
+   Myrtle Medina
+   ```
+
+4. Printing all people:
+   ```
+   === Menu ===
+   1. Find a person
+   2. Print all people
+   0. Exit
+   2
+
+   === List of people ===
+   Dwight Joseph djo@gmail.com
+   Rene Webb webb@gmail.com
+   Katie Jacobs
+   Erick Harrington harrington@gmail.com
+   Myrtle Medina
+   Erick Burgess
+   ```
+
 ## Search Strategies
 
 The application supports three search strategies:
